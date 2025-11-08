@@ -70,7 +70,7 @@ constructor(
     address uniswapFactoryAddr,
     uint256 initialCapUsd6
 )
-
+```
 | Parameter | Description |
 |-----------|------------|
 | `admin` | Address that receives `ADMIN_ROLE`. |
@@ -86,6 +86,7 @@ forge script script/DeployKipuBankV3.s.sol \
     --rpc-url $SEPOLIA_RPC_URL \
     --broadcast \
     --verify
+```
 *After deployment, the admin can enable allowed tokens using `setTokenAllowed(token, true)`.*
 
 ---
@@ -191,3 +192,4 @@ KipuBank V3 is a **secure, efficient, and extensible multi-token vault**, integr
 ---
 
 © 2025 KipuBank Project — MIT License
+
