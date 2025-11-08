@@ -187,9 +187,20 @@ forge script script/DeployKipuBankV3.s.sol \
 
 ## Conclusion
 
+## Objectives Fulfilled
+
+/ Requirement / Description / Status |
+|------------|--------------|--------|
+| **1️️ Handle exchangeable tokens (Uniswap V2)** / Supports any token with direct pair token↔USDC via router. |
+| **2️️ Automatic swaps within the contract** / Execution of 'swapExactTokensForTokens` and 'swapExactETHForTokens'. |
+| **3️️ Preserve KipuBank V2 functionality** / Maintains deposits, withdrawals and ownership through AccessControl. | 
+| **4️️ `bankCap` Observed** / Verification 'require(total + deposit ≤ bankCap)` in each flow. | 
+/**5️️ Coverage ≥ 50 %** | 77.78% lines - requirement exceeded. |
+
 KipuBank V3 is a **secure, efficient, and extensible multi-token vault**, integrating with Uniswap V2 for automatic token conversion and enforcing bank caps. This version provides a solid foundation for DeFi applications requiring controlled multi-asset deposits.
 
 ---
 
 © 2025 KipuBank Project — MIT License
+
 
