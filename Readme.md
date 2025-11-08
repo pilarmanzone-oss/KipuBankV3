@@ -185,8 +185,6 @@ forge script script/DeployKipuBankV3.s.sol \
 
 ---
 
-## Conclusion
-
 ## Objectives Fulfilled
 
 | Requirement | Description | 
@@ -197,11 +195,14 @@ forge script script/DeployKipuBankV3.s.sol \
 | **4️️ `bankCap` Observed** | Verification 'require(total + deposit ≤ bankCap)` in each flow. |
 | **5️️ Coverage ≥ 50 %** | 77.78% lines - requirement exceeded. |
 
+## Conclusion
+
 KipuBank V3 is a **secure, efficient, and extensible multi-token vault**, integrating with Uniswap V2 for automatic token conversion and enforcing bank caps. This version provides a solid foundation for DeFi applications requiring controlled multi-asset deposits.
 
 ---
 
 © 2025 KipuBank Project — MIT License
+
 
 
 
