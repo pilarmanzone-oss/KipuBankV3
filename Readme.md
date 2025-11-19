@@ -193,7 +193,7 @@ forge script script/DeployKipuBankV3.s.sol \
 | **2️️ Automatic swaps within the contract** | Execution of 'swapExactTokensForTokens` and 'swapExactETHForTokens'. |
 | **3️️ Preserve KipuBank V2 functionality** | Maintains deposits, withdrawals and ownership through AccessControl.  |
 | **4️️ `bankCap` Observed** | Verification 'require(total + deposit ≤ bankCap)` in each flow. |
-| **5️️ Coverage ≥ 50 %** | 77.78% lines - requirement exceeded. |
+| **5️️ Coverage ≥ 50 %** | 84.88% lines - requirement exceeded. |
 
 ---
 
@@ -204,6 +204,7 @@ KipuBank V3 is a **secure, efficient, and extensible multi-token vault**, integr
 ---
 
 © 2025 KipuBank Project — MIT License
+
 
 
 
