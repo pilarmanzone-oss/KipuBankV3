@@ -115,7 +115,7 @@ forge script script/DeployKipuBankV3.s.sol \
 |--------|-------|-------|
 | Total lines | **84.88%** | Main contract: 100.00% |
 | Functions covered | **84.21%** | Main contract: 100.00% |
-| Branches covered | 75.00% | KipuBankV3Additional.t.sol for added branch coverage |
+| Branches covered | 74.07% | KipuBankV3Additional.t.sol for added branch coverage |
 | Key test files | `test/ReentrancyAttack.sol`, `test/mocks/MockERC20.sol`, `test/mocks/MockUniswapRouter.sol` | Covers reentrancy, swaps, and deposits |
 
 ### Testing Methods
@@ -166,7 +166,7 @@ forge script script/DeployKipuBankV3.s.sol \
 |--------|-------|-------|
 | Lines covered | **84.88%** | Main contract: 100.00% |
 | Functions covered | **84.21%** | Main contract: 100.00% |
-| Branches covered | 75.00% | KipuBankV3Additional.t.sol for added branch coverage |
+| Branches covered | 74.07% | KipuBankV3Additional.t.sol for added branch coverage |
 | Key test files | `test/ReentrancyAttack.sol`, `test/mocks/MockERC20.sol`, `test/mocks/MockUniswapRouter.sol` | Reentrancy, swaps, deposits |
 
 ### Threats & Weaknesses
@@ -204,6 +204,7 @@ KipuBank V3 is a **secure, efficient, and extensible multi-token vault**, integr
 ---
 
 © 2025 KipuBank Project — MIT License
+
 
 
 
